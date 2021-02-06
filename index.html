@@ -96,24 +96,35 @@
               <td>Algunos ejemplos de reglas de colo: H1 { color: blue }
                 H2 { color: #000080 }
                 H3 { color: #0c0 }
-                <h5>Para ayudar a evitar conflictos con hojas de estilo del usuario, 
-                    siempre deberían especificarse juntas las propiedades background y color </h5></td>
+              </td>
             </tr>
             <tr>
-              <td>body</td>
-              <td>Para el contenido</td>
+              <td>background-color</td>
+              <td>BODY { background-color: white }
+                H1   { background-color: #000080 }</td>
             </tr>
             <tr>
-                <td>div</td>
-                <td>Division dentro del contenido</td>
+                <td>Background Image (Imagen de fondo)</td>
+                <td>BODY { background-image: url(/images/foo.gif) }
+                    P    { background-image: url(http://www.htmlhelp.com/bg.png) }</td>
             </tr>
             <tr>
-                <td>Strong</td>
-                <td>Para poner el texto en negrilla</td>
+                <td>Background (Fondo) </td>
+                <td>La propiedad background es una forma rápida para las propiedades más 
+                    específicas relacionadas con background. Algunos ejemplos de declaraciones de background:
+
+                    BODY       { background: white url(http://www.htmlhelp.com/foo.gif) }
+                    BLOCKQUOTE { background: #7fffd4 }
+                    P          { background: url(../fondos/peon.png) #f0f8ff fixed }
+                    TABLE      { background: #0c0 url(hojas.jpg) no-repeat bottom right }</td>
             </tr>
             <tr>
-                <td>h1..h6</td>
-                <td>Para titulos del contenido</td>
+                <td>border: [border-width || border-style || border-color | inherit]</td>
+                <td>element {
+                    border-width: thin;
+                    border-style: solid;
+                    border-color: #000;
+                }</td>
             </tr>
             <tr>
                 <td>br</td>
