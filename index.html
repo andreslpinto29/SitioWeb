@@ -178,90 +178,129 @@
                       }</td>
             </tr>
             <tr>
-                <td>font family</td>
+                <td>Texto//font family</td>
                 <td>.p1  font-family: "Times New Roman", Times, serif;</td>
             </tr>
                 <!--css de la tabla 2 x 10-->
-                
+
         
             <tr>
-                <td>Text Indentation</td>
-                <td>La text-indentpropiedad se utiliza para 
-                    especificar la sangría de la primera línea de un texto: p {
-                        text-indent: 50px;
-                      }</td>
+                <td>Texto//Font Style</td>
+                <td>Ejmplo: p.normal {
+                    font-style: normal;
+                  }
+                  
+                  p.italic {
+                    font-style: italic;
+                  }
+                  
+                  p.oblique {
+                    font-style: oblique;
+                  }</td>
             </tr>
             <tr>
-                <td>font family</td>
-                <td>.p1  font-family: "Times New Roman", Times, serif;</td>
+                <td>Tamaño de tecto//Font Size</td>
+                <td>La font-sizepropiedad establece el tamaño del texto.
+                    Ejemplos: h1 {
+                        font-size: 40px;
+                      }
+                      
+                      h2 {
+                        font-size: 30px;
+                      }
+                      
+                      p {
+                        font-size: 14px;
+                      }
+                      
+                </td>
             </tr>
         <tr>
-            <td>Text Indentation</td>
-            <td>La text-indentpropiedad se utiliza para 
-                especificar la sangría de la primera línea de un texto: p {
-                    text-indent: 50px;
-                  }</td>
+            <td>CSS Height and Width</td>
+            <td>Las propiedades heighty widthse utilizan para establecer la altura 
+                y el ancho de un elemento. Ejemplo: div {
+                    height: 200px;
+                    width: 50%;
+                    background-color: powderblue;} </td>
         </tr>
         <tr>
-            <td>font family</td>
-            <td>.p1  font-family: "Times New Roman", Times, serif;</td>
+            <td>CSS Links </td>
+            <td>Los cuatro estados de enlaces son:
+
+                a:link - un enlace normal no visitado
+                //a:visited - un enlace que el usuario ha visitado
+                //a:hover - un enlace cuando el usuario pasa el mouse sobre él
+                //a:active - un enlace en el momento en que se hace clic en él</td>
         </tr>
     <tr>
-        <td>Text Indentation</td>
-        <td>La text-indentpropiedad se utiliza para 
-            especificar la sangría de la primera línea de un texto: p {
-                text-indent: 50px;
-              }</td>
+        <td>Lists</td>
+        <td>listas ordenadas(ol) y desordenadas(ul) Ejemplos ul.a {
+            list-style-type: circle;
+          }
+          
+          ul.b {
+            list-style-type: square;
+          }
+          
+          ol.c {
+            list-style-type: upper-roman;
+          }
+          
+          ol.d {
+            list-style-type: lower-alpha;
+          }</td>
     </tr>
     <tr>
-        <td>font family</td>
-        <td>.p1  font-family: "Times New Roman", Times, serif;</td>
+        <td>Tables</td>
+        <td>(tr)//(td) </td>
     </tr>
 <tr>
-    <td>Text Indentation</td>
-    <td>La text-indentpropiedad se utiliza para 
-        especificar la sangría de la primera línea de un texto: p {
-            text-indent: 50px;}</td>
-</tr>
-<tr>
-    <td>font family</td>
-    <td>.p1  font-family: "Times New Roman", Times, serif;</td>
-</tr>
-<tr>
-    <td>Text Indentation</td>
-    <td>La text-indentpropiedad se utiliza para 
-        especificar la sangría de la primera línea de un texto: p {
-            text-indent: 50px;
-          }</td>
-</tr>
-<tr>
-    <td>font family</td>
-    <td>.p1  font-family: "Times New Roman", Times, serif;</td>
-</tr>
+    <td>position</td>
+    <td>Hay cinco valores de posición diferentes:
 
-<tr>
-    <td>Text Indentation</td>
-    <td>La text-indentpropiedad se utiliza para 
-        especificar la sangría de la primera línea de un texto: p {
-            text-indent: 50px;
-          }</td>
+        static
+        relative
+        fixed
+        absolute
+        sticky.  Ejemplo: div.static {
+            position: static;
+            border: 3px solid #73AD21;
+          }//Ejemplo: div.relative {
+            position: relative;
+            left: 30px;
+            border: 3px solid #73AD21;
+          }//ejemplo fixed/fija: div.fixed {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            border: 3px solid #73AD21;
+          }etc.</td>
 </tr>
 <tr>
-    <td>font family</td>
-    <td>.p1  font-family: "Times New Roman", Times, serif;</td>
-</tr>
+    <td>overflow</td>
+    <td>La overflowpropiedad especifica si recortar el contenido o agregar barras de desplazamiento cuando el contenido de un elemento es demasiado grande para caber en el área especificada.
 
+        La overflowpropiedad tiene los siguientes valores:
+        
+        visible- Defecto. El desbordamiento no está recortado. El contenido se renderiza fuera de la caja del elemento.
+        hidden - El desbordamiento se recorta y el resto del contenido será invisible
+        scroll - Se recorta el desbordamiento y se agrega una barra de desplazamiento para ver el resto del contenido
+        auto- Similar a scroll, pero agrega barras de desplazamiento solo cuando es necesario</td>
+</tr>
 <tr>
-    <td>Text Indentation</td>
-    <td>La text-indentpropiedad se utiliza para 
-        especificar la sangría de la primera línea de un texto: p {
-            text-indent: 50px;
+    <td>float</td>
+    <td>La floatpropiedad se utiliza para posicionar y dar formato al contenido, por ejemplo, dejar que una imagen flote a la izquierda del texto en un contenedor.
+
+        La floatpropiedad puede tener uno de los siguientes valores:
+        
+        left: el elemento flota a la izquierda de su contenedor
+        right: el elemento flota a la derecha de su contenedor
+        none: el elemento no flota (se mostrará justo donde aparece en el texto). Esto es predeterminado
+        heredar: el elemento hereda el valor flotante de su padre EJEMPLO: img {
+            float: right;
           }</td>
-</tr>
-<tr>
-    <td>font family</td>
-    <td>.p1  font-family: "Times New Roman", Times, serif;</td>
-</tr>
+
 
         <colgroup>
             <col style="background:rgb(41, 206, 19)">
