@@ -10,10 +10,8 @@ h1 {
     font-weight:400;
     margin:10px 0}
 
-    h2{font-family:"Segoe UI",Arial,sans-serif;
-      font-weight:400;
-      margin:10px 0}.w3-wide{letter-spacing:4px}
-      hr{border:0;border-top:1px solid #eee;margin:20px 0}
+    body {
+      background-image: url("https://disenowebakus.net/imagenes/articulos/aprender-css-hojas-de-estilo-en-cascada.jpg");}
 
 
     /*TABLES CSS*/
