@@ -6,7 +6,7 @@ h1 {
   }
   
       /*cuerpo imagen*/
-    body {
+    head {
       background-image:url("https://www.desarrollolibre.net/public/images/example/html/botones_material/menu-rueda.gif");
     }
 
