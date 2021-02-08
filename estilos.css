@@ -7,9 +7,9 @@ h1 {
   /*cambio letra*/
   h2
   {font-family:"Segoe UI",Arial,sans-serif;
-    font-weight:400;
+    font-weight:500;
     margin:10px 0}
-
+      /*cuerpo imagen*/
     body {
       background-image: url("https://thumbs.dreamstime.com/z/c%C3%B3digo-del-css-y-del-html-26162431.jpg");}
 
