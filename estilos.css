@@ -10,7 +10,44 @@ h1 {
     font-weight:400;margin:10px 0}
 
     
-
+    table, th, td{
+      background-color:#faedcd;
+      margin: auto;
+      padding: 5px;
+      table-layout: auto;
+      text-align: justify;
+      border: 1px solid  #deb68a;
+      border-collapse: collapse;
+  }
+  
+  th{
+      color: black;
+      text-align: center;
+  } 
+  td{
+      color: black;
+      font-family: 'Franklin Gothic book', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .table{
+      margin: 20px;
+      background-color: rgb(250, 237, 205, .5);
+  }
+  
+  .parrafo1{
+      font-size: 1.2rem;
+      text-align: justify;
+      margin: 1.5rem;
+      margin-top: 40px;
+      line-height: 30px;
+  }
+  
+  footer{
+      text-align: center;
+      line-height: 2;
+      background-color:rgb(211, 171, 158,.5);
+  }
+  
 
 
 
