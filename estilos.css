@@ -7,8 +7,9 @@ h1 {
   
       /*cuerpo imagen*/
     body {
-      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBFV4hgZ-aGWkNFA0Oq5vTraVoJrK5w2r0AQ&usqp=CAU");
+      background-image:url("https://www.desarrollolibre.net/public/images/example/html/botones_material/menu-rueda.gif");
     }
+
 
     /*TABLES CSS*/
     table, th, td{
