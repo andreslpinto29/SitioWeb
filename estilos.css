@@ -6,10 +6,14 @@ h1 {
   }
   
   H2{text-align: center;}
-  
+
       /*cuerpo imagen*/
     head {
       background-image:url("https://www.desarrollolibre.net/public/images/example/html/botones_material/menu-rueda.gif");
+    }
+    /*fondo*/
+    body {
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKb7NJaxXk1GIoDmgzJDc2ZE6nuAw2uOdE5Q&usqp=CAU");
     }
 
 
