@@ -45,6 +45,7 @@ h1 {
       background-color:rgb(211, 171, 158,.5);
 
   }
+/*¡Efecto de sombra de texto!*/
 
   h1 {
     text-shadow: 2px 2px 5px rgb(72, 4, 180);
